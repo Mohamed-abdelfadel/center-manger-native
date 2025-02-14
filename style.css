@@ -1,0 +1,159 @@
+@font-face {
+    src: url(assests/font/VarelaRound-Regular.ttf);
+    font-family: "Varela Round";
+}
+
+@font-face {
+    src: url(assests/font/Katibeh.ttf);
+    font-family: "arabic";
+}
+
+@font-face {
+    src: url(assets/fonts/SummitLight-Display.otf);
+    font-family: "title";
+}
+
+@font-face {
+    src: url(assets/fonts/Almarai-Bold.ttf);
+    font-family: "arabic";
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(52, 58, 64);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    padding-top: 3%;
+    background-image: url("img/4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items {
+    margin-right: 10%;
+    border-bottom: 4px solid transparent;
+}
+
+.items:hover {
+    border-bottom: 4px solid gray;
+}
+
+.cover {
+    background-image: url("img/1.png");
+    height: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.title {
+    font-family: "title";
+    padding-top: 3%;
+}
+
+.home_title {
+    font-family: "title";
+    padding-top: 0%;
+
+}
+
+.login {
+    padding: 10px 100px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.arabic {
+    font-family: "arabic";
+}
+
+
+.box {
+    margin: auto;
+    padding: 3%;
+    height: auto;
+    background-color: ghostwhite;
+    box-shadow: 3px 3px 100px 10px #888888;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.card {
+    background-color: ghostwhite;
+    margin: 30px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 30px 0px #888888;
+}
+
+/* .card:hover{
+    background-color: grey;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-iteration-count:inherit ;
+} */
+.home_label {
+    font-size: 26px;
+}
+
+.logo {
+    font-size: 48px;
+}
+
+p {
+    color: red;
+}
+
+.set_grade {
+    display: inline-block;
+}
+
+@keyframes hover {
+    from {
+        background-color: ghostwhite;
+    }
+    to {
+        background-color: grey;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    html, body {
+        padding-top: 50px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .home_title {
+        font-size: 24px;
+    }
+
+    .login {
+        padding: 15px 20px;
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .cover {
+        height: 40%;
+        background-size: contain;
+    }
+
+}
